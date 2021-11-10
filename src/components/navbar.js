@@ -1,10 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Logo from './cartWidget.js';
+import Logo from './logo.js';
 
 function Navbar(){
     return(
         <>
-            <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar navbar-light bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <Logo/></a>

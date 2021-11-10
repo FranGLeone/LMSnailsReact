@@ -1,17 +1,22 @@
-
 import './App.css';
-import Texto from './components/itemListContainer'
-import Navbar from './components/navbar'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'font-awesome/css/font-awesome.min.css';
+import Esmaltes from './components/tienda';
+import {data} from './components/data';
+import Navbar from './components/navbar';
 
-
-function App() {
+const App = () => {
   return (
     <>
-    <Navbar/>
-    <Texto/>
-
+    <header>
+      <Navbar></Navbar>
+    </header>
+    {
+      data.map((video, index) =>
+      <Esmaltes
+        key={index}
+        nombre={video.nombre}
+        precio={video.precio}
+        thumbnail={video.thumbnail}/>)
+    }
     </>
   );
 }
