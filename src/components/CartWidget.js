@@ -1,7 +1,7 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 
-function Logo(){
+function CartWidget(){
     return(
         <>
         <FontAwesomeIcon icon={faShoppingCart}/>
@@ -11,4 +11,4 @@ function Logo(){
 
 
 
-export default Logo;
+export default CartWidget;

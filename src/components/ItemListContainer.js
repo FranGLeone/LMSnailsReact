@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Esmaltes = ({nombre, precio, thumbnail }) => {
+const Contador = ({nombre, precio, thumbnail }) => {
 
   const [items, setItems] = useState(0);
 
@@ -53,4 +53,4 @@ const Esmaltes = ({nombre, precio, thumbnail }) => {
         );
     }
 
-export default Esmaltes;
+export default Contador;

@@ -1,7 +1,7 @@
 import './App.css';
-import Esmaltes from './components/tienda';
+import Contador from './components/ItemListContainer';
 import {data} from './components/data';
-import Navbar from './components/navbar';
+import Navbar from './components/NavBar';
 
 const App = () => {
   return (
@@ -9,14 +9,16 @@ const App = () => {
     <header>
       <Navbar></Navbar>
     </header>
+    <body>
     {
-      data.map((video, index) =>
-      <Esmaltes
+      data.map((prop, index) =>
+      <Contador
         key={index}
-        nombre={video.nombre}
-        precio={video.precio}
-        thumbnail={video.thumbnail}/>)
+        nombre={prop.nombre}
+        precio={prop.precio}
+        thumbnail={prop.thumbnail}/>)
     }
+    </body>
     </>
   );
 }
