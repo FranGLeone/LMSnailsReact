@@ -1,6 +1,6 @@
 import './App.css';
-import Contador from './components/ItemListContainer';
-import {data} from './components/data';
+import ItemListContainer from './components/ItemListContainer';
+import {data} from './data';
 import Navbar from './components/NavBar';
 
 const App = () => {
@@ -10,14 +10,7 @@ const App = () => {
       <Navbar></Navbar>
     </header>
     <body>
-    {
-      data.map((prop, index) =>
-      <Contador
-        key={index}
-        nombre={prop.nombre}
-        precio={prop.precio}
-        thumbnail={prop.thumbnail}/>)
-    }
+      <ItemListContainer ItemListContainer={data}/>
     </body>
     </>
   );
