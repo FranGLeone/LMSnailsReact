@@ -1,4 +1,4 @@
-import Contador from "./ItemList";
+import Contador from "./Contador";
 
 const ItemListContainer = (props) => {
   return(
