@@ -1,18 +1,27 @@
-import Contador from "./Contador";
+import ItemList from './ItemList';
+import customFetch from '../utilities/customFetch';
+import {useEffect, useState} from 'react';
 
-const ItemListContainer = (props) => {
+const {data} = require('../utilities/data')
+
+const ItemListContainer = ({}) =>{
+  const [datos, setDatos] = useState([]);
+  useEffect(()=>{
+    customFetch(2000, data )
+        .then(res => setDatos(res))
+        .catch(err => console.log(err))
+
+  },[]);
+
+  const onAdd = (cant) => {
+    alert("Seleccionaste" + cant + "items.");
+  }
   return(
     <>
-    {
-      props.ItemListContainer.map((prop, index) =>
-      <Contador
-        key={index}
-        nombre={prop.nombre}
-        precio={prop.precio}
-        thumbnail={prop.thumbnail}/>)
-    }
+      <ItemList items={datos}/>
+    
     </>
-  )
+  );
 }
 export default ItemListContainer;
 

@@ -1,6 +1,6 @@
 import './App.css';
+import ItemDetailContainer from './components/itemDetailContainer';
 import ItemListContainer from './components/ItemListContainer';
-import {data} from './data';
 import Navbar from './components/NavBar';
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
       <Navbar></Navbar>
     </header>
     <body>
-      <ItemListContainer ItemListContainer={data}/>
+      <ItemDetailContainer />
     </body>
     </>
   );
