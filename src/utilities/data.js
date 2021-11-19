@@ -4,7 +4,7 @@ const data = [
         nombre: "Top coat Matte",
         precio: 700,
         cantidad: 8,
-        thumbnail: require ("../Images/topcoatmate.jpeg"),
+        thumbnail: "../Images/topcoatmate.jpeg",
         descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo."
         
     },
@@ -13,7 +13,7 @@ const data = [
         nombre: "Blanco French",
         precio: 600,
         cantidad: 6,
-        thumbnail: require ("../Images/blancofrench.jpeg"),
+        thumbnail: "",
         descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo."
 
     },
