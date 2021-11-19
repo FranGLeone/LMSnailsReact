@@ -9,9 +9,9 @@ const App = () => {
     <header>
       <Navbar></Navbar>
     </header>
-    <body>
-      <ItemDetailContainer />
-    </body>
+    
+      <ItemListContainer />
+    
     </>
   );
 }
