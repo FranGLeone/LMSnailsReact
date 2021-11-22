@@ -21,3 +21,20 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+ <CardWrapper>
+              <CardHeader>
+                <CardHeading>{titulo}</CardHeading>
+              </CardHeader>
+              <CardBody>
+                <CardFieldset>
+                <img src={imagenUrl} alt={titulo} />
+                </CardFieldset>
+                <CardFieldset>
+                  
+                </CardFieldset>
+                <CardFieldset>
+                  <CardButton type="button">Detalles</CardButton>
+                </CardFieldset>
+              </CardBody>
+            </CardWrapper>

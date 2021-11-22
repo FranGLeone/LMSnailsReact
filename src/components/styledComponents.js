@@ -119,7 +119,7 @@ export const CardButton = styled.button`
   font-size: 14px;
   font-weight: 700;
   color: #fff;
-  background-color: #e5195f;
+  background-color: #666666;
   border: 0;
   border-radius: 35px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.08);
@@ -152,5 +152,11 @@ export const DivProductos = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
 `;
-  
 
+
+export const CardProductos = styled.div`
+    padding: 20px;
+    margin-bottom: 250px;
+    height: 400px;
+    width: 400px;
+`;

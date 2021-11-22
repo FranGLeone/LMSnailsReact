@@ -5,7 +5,7 @@ import {useEffect, useState} from 'react';
 
 const {data} = require('../utilities/data')
 
-const ItemListContainer = ({greeting}) =>{
+const ItemListContainer = ({}) =>{
   const [datos, setDatos] = useState([]);
   useEffect(()=>{
     customFetch(2000, data )

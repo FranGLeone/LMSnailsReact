@@ -1,18 +1,5 @@
-import {
-  CardWrapper,
-  CardHeader,
-  CardHeading,
-  CardBody,
-  CardIcon,
-  CardFieldset,
-  CardInput,
-  CardOptionsItem,
-  CardOptions,
-  CardOptionsNote,
-  CardButton,
-  CardLink,
-  DivProductos,
-} from "./styledComponents";
+import { CardButton, CardFieldset, CardProductos } from "./styledComponents";
+
 
 const Item = ({titulo, stock, precio, imagenUrl }) => {
     return(
@@ -21,26 +8,30 @@ const Item = ({titulo, stock, precio, imagenUrl }) => {
         stock >= 1
         ? 
         <>
-            <CardWrapper>
-              <CardHeader>
-                <CardHeading>{titulo}</CardHeading>
-              </CardHeader>
-              <CardBody>
-                <CardFieldset>
-                <img src={imagenUrl} alt={titulo} />
-                </CardFieldset>
-                <CardFieldset>
-                  
-                </CardFieldset>
-                <CardFieldset>
-                  <CardButton type="button">Detalles</CardButton>
-                </CardFieldset>
-              </CardBody>
-            </CardWrapper>
+          <CardProductos className="col-lg-4">
+            <CardFieldset>
+                <img src={imagenUrl} className="card-img-top"/>
+                <div className="card-body" style={{backgroundColor: "#BDECB6"}}>
+                    <h4>{titulo}</h4>
+                    <h5 className="">{precio}</h5>
+                    <CardButton>COMPRAR</CardButton>
+                </div>
+            </CardFieldset>
+          </CardProductos>
         </>
         :
         <>
-            
+          <CardProductos>
+            <CardFieldset>
+                <img src={imagenUrl} className="card-img-top"/>
+                <div className="card-body" style={{backgroundColor: "#FF8368"}}>
+                    <h4 >{titulo}</h4>
+                    <h5 className="">{precio}</h5>
+                    <CardButton>SIN STOCK</CardButton>
+                </div>
+            </CardFieldset>
+          </CardProductos>
+          
         </>
               }
         </>

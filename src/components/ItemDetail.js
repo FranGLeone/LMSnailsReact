@@ -1,22 +1,25 @@
+import { CardButton, CardFieldset, CardProductos } from "./styledComponents";
 
 
 const ItemDetail = ({ item }) => {
 
     return (
         <>
-        {
-            item.thumbnail
-            ? 
-            <div>
-                  <img src={item.thumbnail}/>
-                  <h3>{item.nombre}</h3>
-                  <h4>{item.precio}</h4>
-                  
-                  <h5>Cantidad disponible: {item.cantidad} Unid.</h5>
-                  
+        <CardProductos>
+            
+                <img src={item.thumbnail} className="card-img-top"/>
+                <div className="card-body" style={{backgroundColor: "#BDECB6"}}>
+                    <h4>{item.nombre}</h4>
+                    <h5 className="">${item.precio}</h5>
+                    <h6>Cantidad disponible: {item.cantidad} unid. </h6>
+                    <br></br>
+                    <h6>Breve descripción del producto:</h6> 
+                        <p>{item.descripcion}</p>
+
                 </div>
-            : <p>Cargando...</p>
-        }
+            
+            
+          </CardProductos>
         </>
     );
 }
