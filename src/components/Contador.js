@@ -1,3 +1,6 @@
+//todavia en desuso
+
+
 import { useState } from "react";
 
 const Contador = ({nombre, precio, thumbnail }) => {

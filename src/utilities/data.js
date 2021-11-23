@@ -4,72 +4,104 @@
         nombre: "Top coat Matte",
         precio: 700,
         cantidad: 8,
-        thumbnail: "/Images/topcoatmate.jpeg",
-        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo."
-        
+        imagen: "/Images/topcoatmate.jpeg",
+        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
+        CategoriaId: 1,  
+        categoria: {
+            name: "Tonos oscuros",
+            id: 1,
+        }
     },
     {
         id: 2,
         nombre: "Blanco French",
         precio: 600,
         cantidad: 6,
-        thumbnail: "/Images/blancofrench.jpeg",
-        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo."
-
+        imagen: "/Images/blancofrench.jpeg",
+        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
+        CategoriaId: 2,
+        categoria: {
+            name: "Tonos claros",
+            id: 2,
+        }
     },
     {
         id: 3,
         nombre: "Deep Blue Sky",
         precio: 400,
         cantidad: 4,
-        thumbnail: "/Images/deepsky.jpeg",
-        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo."
-
+        imagen: "/Images/deepsky.jpeg",
+        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
+        CategoriaId:1,
+        categoria: {
+            name: "Tonos oscuros",
+            id: 1,
+        }
     },
     {
         id: 4,
         nombre: "White Milky Way",
         precio: 200,
         cantidad: 0,
-        thumbnail: "/Images/milkyway.jpeg",
-        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo."
-
+        imagen: "/Images/milkyway.jpeg",
+        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
+        CategoriaId:2,
+        categoria: {
+            name: "Tonos claros",
+            id: 2,
+        }
     },
     {
         id: 5,
         nombre: "Slytherin Vibes",
         precio: 200,
         cantidad: 4,
-        thumbnail: "/Images/slytherin.jpeg",
-        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo."
-
+        imagen: "/Images/slytherin.jpeg",
+        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
+        CategoriaId:1,
+        categoria: {
+            name: "Tonos oscuros",
+            id: 1,
+        }
     },
     {
         id: 6,
         nombre: "Spooky Obscure",
         precio: 200,
         cantidad: 3,
-        thumbnail: "/Images/black.jpeg",
-        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo."
-
+        imagen: "/Images/black.jpeg",
+        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
+        CategoriaId:1,
+        categoria: {
+            name: "Tonos oscuros",
+            id: 1,
+        }
     },
     {
-        id: 6,
+        id: 7,
         nombre: "Champagne Rose",
         precio: 200,
         cantidad: 0,
-        thumbnail: "/Images/champagnerose.jpeg",
-        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo."
-
+        imagen: "/Images/champagnerose.jpeg",
+        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
+        CategoriaId:2,
+        categoria: {
+            name: "Tonos claros",
+            id: 2,
+        }
     },
     {
-        id: 6,
+        id: 8,
         nombre: "Smokey Plum",
         precio: 200,
         cantidad: 3,
-        thumbnail: "/Images/smokeyplum.jpeg",
-        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo."
-
+        imagen: "/Images/smokeyplum.jpeg",
+        descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
+        CategoriaId: 1,
+        categoria: {
+            name: "Tonos oscuros",
+            id: 1,
+        }
     },
      
 

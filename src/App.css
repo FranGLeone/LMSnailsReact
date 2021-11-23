@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #DF98CD;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -19,7 +19,7 @@ header {
   justify-content: space-between;
   margin: 0 auto;
   padding: 1rem 5rem;
-  background: #f3f3f3;
+  background: #4d4d4d;
   margin-bottom: 2rem;
   box-shadow: 0 1px 11px 3px rgb(0 0 0/21%);
 }

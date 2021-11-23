@@ -4,7 +4,7 @@ import {faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 function CartWidget(){
     return(
         <>
-        <FontAwesomeIcon icon={faShoppingCart}/>
+        <FontAwesomeIcon icon={faShoppingCart} style={{fontSize:"30px"}} />
         </>)
     
 }

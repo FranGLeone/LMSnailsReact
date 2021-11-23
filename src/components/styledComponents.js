@@ -9,31 +9,6 @@ export const Wrapper = styled.div`
     justify-content: space-between;
 `;
 
-export const CardWrapper = styled.div`
-  overflow: hidden;
-  padding: 0 0 32px;
-  margin: 48px auto 0;
-  width: 300px;
-  font-family: Quicksand, arial, sans-serif;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05), 0 0px 40px rgba(0, 0, 0, 0.08);
-  border-radius: 5px;
-`;
-
-export const CardHeader = styled.header`
-  padding-top: 32px;
-  padding-bottom: 32px;
-`;
-
-export const CardHeading = styled.h1`
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-`;
-
-export const CardBody = styled.div`
-  padding-right: 32px;
-  padding-left: 32px;
-`;
 
 export const CardFieldset = styled.fieldset`
   position: relative;
@@ -54,22 +29,6 @@ export const CardFieldset = styled.fieldset`
   }
 `;
 
-export const CardInput = styled.input`
-  padding: 7px 0;
-  width: 100%;
-  font-family: inherit;
-  font-size: 14px;
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 1px solid #ddd;
-  border-left: 0;
-  transition: border-bottom-color 0.25s ease-in;
-
-  &:focus {
-    border-bottom-color: #e5195f;
-    outline: 0;
-  }
-`;
 
 export const CardIcon = styled.span`
   color: #666;
@@ -84,32 +43,6 @@ export const CardIcon = styled.span`
   
 `;
 
-export const CardOptionsNote = styled.small`
-  padding-top: 8px;
-  display: block;
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  text-transform: uppercase;
-`;
-
-export const CardOptions = styled.ul`
-  padding: 0;
-  margin: 16px 0 8px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  list-style-type: none;
-`;
-
-export const CardOptionsItem = styled.li`
-  &:nth-of-type(n + 2) {
-    margin-left: 16px;
-  }
-`;
 
 export const CardButton = styled.button`
   display: block;
@@ -132,31 +65,91 @@ export const CardButton = styled.button`
   }
 `;
 
-export const CardLink = styled.a`
-  display: inline-block;
-  font-size: 12px;
-  text-decoration: none;
-  color: #aaa;
-  border-bottom: 1px solid #ddd;
-  cursor: pointer;
-  transition: color 0.25s ease-in;
-
-  &:hover {
-    color: #777;
-  }
-`;
-
 export const DivProductos = styled.div`
-    padding: 20px;
+    padding: 10px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 `;
 
+export const Icon = styled.div`
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    transition: all 0.5s ease;
+    &:hover {
+        background-color: #e9f5f5;
+        transform: scale(1.1);
+    }
+`;
+
+export const Info = styled.div`
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    diplay: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+`;
 
 export const CardProductos = styled.div`
-    padding: 20px;
+    margin-top 80px;
     margin-bottom: 250px;
     height: 400px;
     width: 400px;
+    
+    &:hover ${Info}{
+        opacity: 1;
+    }
+`;
+
+export const Left = styled.div`
+    flex: 1;
+    display: flex;
+    align-items: center;
+`;
+
+export const Center = styled.div`
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+
+export const Right = styled.div`
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+`;
+
+export const MenuItem = styled.div`
+    cursor: pointer;
+    margin-left: 25px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+`;
+
+export const WrapperTonos = styled.div`
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 `;
