@@ -16,7 +16,7 @@ const Tienda =() =>{
             <Routes>
                 <Route exact path='/' element={<ItemListContainer />} />
                 <Route exact path='/categoria/:CategoriaId' element={<ItemListContainer />} />
-                <Route path='/item/:idItem' element={<ItemDetailContainer />} />
+                <Route exact path='/item/:id' element={<ItemDetailContainer />} />
             </Routes>
         </BrowserRouter>
     );

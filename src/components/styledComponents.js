@@ -72,46 +72,17 @@ export const DivProductos = styled.div`
     justify-content: space-between;
 `;
 
-export const Icon = styled.div`
-    font-size: 12px;
-    width: 100px;
-    height: 40px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 10px;
-    transition: all 0.5s ease;
-    &:hover {
-        background-color: #e9f5f5;
-        transform: scale(1.1);
-    }
-`;
-
-export const Info = styled.div`
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.2);
-    z-index: 3;
-    diplay: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s ease;
-`;
 
 export const CardProductos = styled.div`
     margin-top 80px;
     margin-bottom: 250px;
     height: 400px;
     width: 400px;
-    
-    &:hover ${Info}{
-        opacity: 1;
-    }
+    transition: all 0.5s ease;
+    &:hover {
+      background-color: #e9f5f5;
+      transform: scale(1.05);
+  }
 `;
 
 export const Left = styled.div`
@@ -143,6 +114,10 @@ export const MenuItem = styled.div`
     text-decoration: none;
     font-weight: bold;
     display: block;
+    &:hover {
+      background-color: #D3D3D3;
+      transform: scale(1.05);
+  }
 `;
 
 export const WrapperTonos = styled.div`

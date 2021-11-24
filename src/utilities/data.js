@@ -1,6 +1,6 @@
  export const data = [
     {
-        id: 1,
+        ItemId: 1,
         nombre: "Top coat Matte",
         precio: 700,
         cantidad: 8,
@@ -13,7 +13,7 @@
         }
     },
     {
-        id: 2,
+        ItemId: 2,
         nombre: "Blanco French",
         precio: 600,
         cantidad: 6,
@@ -26,7 +26,7 @@
         }
     },
     {
-        id: 3,
+        ItemId: 3,
         nombre: "Deep Blue Sky",
         precio: 400,
         cantidad: 4,
@@ -39,7 +39,7 @@
         }
     },
     {
-        id: 4,
+        ItemId: 4,
         nombre: "White Milky Way",
         precio: 200,
         cantidad: 0,
@@ -52,7 +52,7 @@
         }
     },
     {
-        id: 5,
+        ItemId: 5,
         nombre: "Slytherin Vibes",
         precio: 200,
         cantidad: 4,
@@ -65,7 +65,7 @@
         }
     },
     {
-        id: 6,
+        ItemId: 6,
         nombre: "Spooky Obscure",
         precio: 200,
         cantidad: 3,
@@ -78,7 +78,7 @@
         }
     },
     {
-        id: 7,
+        ItemId: 7,
         nombre: "Champagne Rose",
         precio: 200,
         cantidad: 0,
@@ -91,7 +91,7 @@
         }
     },
     {
-        id: 8,
+        ItemId: 8,
         nombre: "Smokey Plum",
         precio: 200,
         cantidad: 3,
