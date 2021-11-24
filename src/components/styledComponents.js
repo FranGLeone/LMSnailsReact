@@ -128,3 +128,14 @@ export const WrapperTonos = styled.div`
     align-items: center;
     justify-content: space-between;
 `;
+
+export const ProductAmountContainer = styled.div`
+    display: flex;
+    align-items: center;
+    margin: 20px;
+`;
+
+export const ProductAmount = styled.div`
+    font-size: 24px;
+    margin: 5px;
+`;

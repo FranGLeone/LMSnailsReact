@@ -1,4 +1,3 @@
-import {InfoOutlined} from '@material-ui/icons';
 import { CardButton, CardFieldset, CardIcon,CardProductos} from "./styledComponents";
 import {Link} from "react-router-dom";
 
